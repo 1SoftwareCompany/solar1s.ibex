@@ -15,7 +15,7 @@ class CurrentPriceSensorKWH(SensorEntity):
     """Sensor for the current energy price per kWh."""
 
     _attr_has_entity_name = True
-    _attr_name = "Price Now (DA)"
+    _attr_name = "Price Now in kWh (DA)"
     _attr_unique_id = "ibex_dayahead_price_kwh_now"
     _attr_device_class = SensorDeviceClass.MONETARY
     _attr_native_unit_of_measurement = "BGN/kWh"
