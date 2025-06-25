@@ -21,11 +21,6 @@ import logging
 
 _LOGGER = logging.getLogger(__name__)
 
-API_URL = "http://10.1.1.85:9200/metrics-ibex/_search"
-USERNAME = "elastic"
-PASSWORD = "123qwe123qwe##asd"
-
-
 class IbexCoordinator(DataUpdateCoordinator):
     """Coordinator to fetch and manage electricity price data."""
 
